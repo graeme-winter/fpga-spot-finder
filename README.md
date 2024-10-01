@@ -10,7 +10,13 @@ The following are required to get anywhere at all:
 - installation of XRT
 - platform for the device you have which must support DMA (tested on U250 which is overkill)
 
-The platform XPFM file must be passed either in the environment or via `make PLATFORM=`.
+The platform XPFM file must be passed either in the environment or via `make PLATFORM=`. For me the following set-up was used:
+
+```
+. /opt/xilinx/xrt/setup.sh
+. /scratch2/xilinx/Vitis_HLS/2022.2/settings64.sh
+export PLATFORM=/opt/xilinx/platforms/xilinx_u250_gen3x16_xdma_4_1_202210_1/xilinx_u250_gen3x16_xdma_4_1_202210_1.xpfm
+```
 
 ## Building
 
