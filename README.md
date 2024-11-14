@@ -1,6 +1,6 @@
 # FPGA Spot Finder
 
-Spot finder, starting with the simple dispersion, built to demonstrate the code developed using the `vitis_hls` workflow [here](../019-project-fpga-summed-area/). This currently implements a streaming version of the spot finder compiled for a detector image the same size as an Eiger 2XE 16M: this is a compile time not run time option, since the hardware depends very significantly on the width of the image.
+Spot finder, starting with the simple dispersion, built to demonstrate the code developed using the `vitis_hls` workflow. This currently implements a streaming version of the spot finder compiled for a detector image the same size as an Eiger 2XE 16M: this is a compile time not run time option, since the hardware depends very significantly on the width of the image.
 
 ## Dependencies
 
